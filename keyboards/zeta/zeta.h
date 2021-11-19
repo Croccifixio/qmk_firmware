@@ -4,7 +4,6 @@
 
 #include "quantum.h"
 #include "matrix.h"
-#include "backlight.h"
 #include <stddef.h>
 
 #define red_led_off   PORTF |= (1<<5)
